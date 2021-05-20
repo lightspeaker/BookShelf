@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="isbn" table="x_11062_bookshelf_books">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="genre" table="x_11062_bookshelf_authors">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>ISBN</column_label>
+        <column_label>Genre</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -17,12 +22,12 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>isbn</element>
+        <element>genre</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -30,7 +35,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_11062_bookshelf_books</name>
+        <name>x_11062_bookshelf_authors</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -47,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-05-20 10:42:00</sys_created_on>
-        <sys_id>80af5ea8db50301099dbc586059619a4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>ISBN</sys_name>
+        <sys_created_on>2021-05-20 11:34:59</sys_created_on>
+        <sys_id>019ba664db90301099dbc586059619cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Genre</sys_name>
         <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
         <sys_policy/>
         <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
-        <sys_update_name>sys_dictionary_x_11062_bookshelf_books_isbn</sys_update_name>
+        <sys_update_name>sys_dictionary_x_11062_bookshelf_authors_genre</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-05-20 11:31:48</sys_updated_on>
+        <sys_updated_on>2021-05-20 11:34:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
