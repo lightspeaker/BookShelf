@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_11062_bookshelf_authors</from_table>
+        <m2m_from_field>authors</m2m_from_field>
+        <m2m_from_label>Genres</m2m_from_label>
+        <m2m_table>x_11062_bookshelf_m2m_genres_authors</m2m_table>
+        <m2m_to_field>genre</m2m_to_field>
+        <m2m_to_label>Authors</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 14:09:33</sys_created_on>
+        <sys_id>b00f8328db14301099dbc5860596199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11062_bookshelf_m2m_genres_authors</sys_name>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_update_name>sys_m2m_b00f8328db14301099dbc5860596199c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:09:33</sys_updated_on>
+        <to_table>x_11062_bookshelf_genre</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</application>
+        <file_path/>
+        <instance_id>5ec90610db7d57046578f22ebf9619a1</instance_id>
+        <instance_name>dev57497</instance_name>
+        <name>sys_m2m_b00f8328db14301099dbc5860596199c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_11062_bookshelf_authors</from_table><m2m_from_field>authors</m2m_from_field><m2m_from_label>Genres</m2m_from_label><m2m_table>x_11062_bookshelf_m2m_genres_authors</m2m_table><m2m_to_field>genre</m2m_to_field><m2m_to_label>Authors</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-20 14:09:33</sys_created_on><sys_id>b00f8328db14301099dbc5860596199c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_11062_bookshelf_m2m_genres_authors</sys_name><sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package><sys_policy/><sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope><sys_update_name>sys_m2m_b00f8328db14301099dbc5860596199c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-20 14:09:33</sys_updated_on><to_table>x_11062_bookshelf_genre</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>-225786926</payload_hash>
+        <record_name>x_11062_bookshelf_m2m_genres_authors</record_name>
+        <reverted_from/>
+        <source>b9d26a2cdb50301099dbc58605961909</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 14:09:35</sys_created_on>
+        <sys_id>342fcb28db14301099dbc58605961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1798a1c35460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:09:35</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>3c2fcb287d143010ba8c08f2a1074c64</update_guid>
+        <update_guid_history>3c2fcb287d143010ba8c08f2a1074c64:-225786926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 14:34:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>1f9d4fa0b6e44f18ba1157edc25d8840</sys_id>
+        <sys_metadata>b00f8328db14301099dbc5860596199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11062_bookshelf_m2m_genres_authors</sys_name>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_scope_delete display_value="">2b4c48aa1ba74cdca2aa457a518c9fb1</sys_scope_delete>
+        <sys_update_name>sys_m2m_b00f8328db14301099dbc5860596199c</sys_update_name>
+        <sys_update_version display_value="sys_m2m_b00f8328db14301099dbc5860596199c">342fcb28db14301099dbc58605961965</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:34:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

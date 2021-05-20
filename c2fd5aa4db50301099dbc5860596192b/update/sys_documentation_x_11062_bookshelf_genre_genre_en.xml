@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="genre" label="Genre" language="en" table="x_11062_bookshelf_genre">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>genre</element>
+            <help/>
+            <hint/>
+            <label>Genre</label>
+            <language>en</language>
+            <name>x_11062_bookshelf_genre</name>
+            <plural>Genres</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-20 14:41:11</sys_created_on>
+            <sys_id>ff569760db54301099dbc586059619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Genre</sys_name>
+            <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+            <sys_update_name>sys_documentation_x_11062_bookshelf_genre_genre_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-20 14:41:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

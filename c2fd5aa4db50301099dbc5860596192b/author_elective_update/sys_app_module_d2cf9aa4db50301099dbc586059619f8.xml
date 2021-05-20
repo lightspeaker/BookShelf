@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="BookShelf">46cf9aa4db50301099dbc586059619ee</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_11062_bookshelf_books</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 10:42:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2cf9aa4db50301099dbc586059619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_update_name>sys_app_module_d2cf9aa4db50301099dbc586059619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 10:42:41</sys_updated_on>
+        <timeline_page/>
+        <title>All</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</application>
+        <file_path/>
+        <instance_id>5ec90610db7d57046578f22ebf9619a1</instance_id>
+        <instance_name>dev57497</instance_name>
+        <name>sys_app_module_d2cf9aa4db50301099dbc586059619f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BookShelf">46cf9aa4db50301099dbc586059619ee</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_11062_bookshelf_books</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-20 10:42:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d2cf9aa4db50301099dbc586059619f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package><sys_policy/><sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope><sys_update_name>sys_app_module_d2cf9aa4db50301099dbc586059619f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-20 10:42:41</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1103887827</payload_hash>
+        <record_name>All</record_name>
+        <reverted_from/>
+        <source>0efd1668db50301099dbc586059619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 10:42:41</sys_created_on>
+        <sys_id>52cf12e8db50301099dbc58605961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179895ecbd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 10:42:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5acf12e82950301081e9e52f6ffe6666</update_guid>
+        <update_guid_history>5acf12e82950301081e9e52f6ffe6666:1103887827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="All">b2f35b6cdb14301099dbc58605961951</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 14:30:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>564b8e4cd4974cb2a66d0b66efe41344</sys_id>
+        <sys_metadata>d2cf9aa4db50301099dbc586059619f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_scope_delete display_value="">2b4c48aa1ba74cdca2aa457a518c9fb1</sys_scope_delete>
+        <sys_update_name>sys_app_module_d2cf9aa4db50301099dbc586059619f8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d2cf9aa4db50301099dbc586059619f8">52cf12e8db50301099dbc58605961967</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:30:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

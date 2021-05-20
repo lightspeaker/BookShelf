@@ -2,8 +2,8 @@
     <element label="Authors" max_length="40" name="x_11062_bookshelf_authors" type="collection">
         <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
         <element label="Date of Death" max_length="40" name="date_of_death" type="glide_date"/>
-        <element label="Full Name" max_length="255" name="full_name" type="string_full_utf8"/>
-        <element label="Genre" max_length="40" name="genre" type="string"/>
+        <element display="true" label="Full Name" max_length="255" name="full_name" read_only="true" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Genre" max_length="40" name="genre" reference="x_11062_bookshelf_genre" type="reference"/>
         <element label="Last Name" max_length="255" name="last_name" type="string_full_utf8"/>
         <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
     </element>
