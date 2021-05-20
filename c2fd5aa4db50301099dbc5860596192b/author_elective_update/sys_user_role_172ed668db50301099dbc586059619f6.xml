@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_11062_bookshelf.admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_11062_bookshelf.admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 10:35:39</sys_created_on>
+        <sys_id>172ed668db50301099dbc586059619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11062_bookshelf.admin</sys_name>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_update_name>sys_user_role_172ed668db50301099dbc586059619f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 10:35:39</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</application>
+        <file_path/>
+        <instance_id>5ec90610db7d57046578f22ebf9619a1</instance_id>
+        <instance_name>dev57497</instance_name>
+        <name>sys_user_role_172ed668db50301099dbc586059619f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_11062_bookshelf.admin</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>x_11062_bookshelf.admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-20 10:35:39</sys_created_on><sys_id>172ed668db50301099dbc586059619f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_11062_bookshelf.admin</sys_name><sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package><sys_policy/><sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope><sys_update_name>sys_user_role_172ed668db50301099dbc586059619f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-20 10:35:39</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-637635969</payload_hash>
+        <record_name>x_11062_bookshelf.admin</record_name>
+        <reverted_from/>
+        <source>0efd1668db50301099dbc586059619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 10:35:39</sys_created_on>
+        <sys_id>932ed668db50301099dbc586059619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17989585c240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 10:35:39</sys_updated_on>
+        <type>Role</type>
+        <update_guid>9b2ed668d4503010ba2960e5853286fa</update_guid>
+        <update_guid_history>9b2ed668d4503010ba2960e5853286fa:-637635969</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_11062_bookshelf.admin">1a95d720db54301099dbc586059619f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-20 14:37:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>12c5a30562754e22bd90316654e227c4</sys_id>
+        <sys_metadata>172ed668db50301099dbc586059619f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_11062_bookshelf.admin</sys_name>
+        <sys_package display_value="BookShelf" source="x_11062_bookshelf">c2fd5aa4db50301099dbc5860596192b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BookShelf">c2fd5aa4db50301099dbc5860596192b</sys_scope>
+        <sys_scope_delete display_value="">2b4c48aa1ba74cdca2aa457a518c9fb1</sys_scope_delete>
+        <sys_update_name>sys_user_role_172ed668db50301099dbc586059619f6</sys_update_name>
+        <sys_update_version display_value="sys_user_role_172ed668db50301099dbc586059619f6">932ed668db50301099dbc586059619fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:37:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

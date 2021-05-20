@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bookshelf M2m Books Genres" max_length="40" name="x_11062_bookshelf_m2m_books_genres" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Books" max_length="32" name="books" reference="x_11062_bookshelf_books" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Genre" max_length="32" name="genre" reference="x_11062_bookshelf_genre" type="reference"/>
+        <index name="index">
+            <element name="books"/>
+        </index>
+        <index name="index2">
+            <element name="genre"/>
+        </index>
+    </element>
+</database>
