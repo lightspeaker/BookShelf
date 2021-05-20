@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User Rating" max_length="40" name="x_11062_bookshelf_user_rating" type="collection">
+        <element display="true" label="Rating" max_length="40" name="rating" type="integer"/>
+    </element>
+</database>

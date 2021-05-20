@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Books" max_length="40" name="x_11062_bookshelf_books" type="collection">
-        <element label="Author" max_length="80" name="author" type="string_full_utf8"/>
+        <element label="Author" max_length="80" name="author" reference="x_11062_bookshelf_authors" type="reference"/>
         <element label="Avg Rating" max_length="40" name="avg_rating" type="integer"/>
-        <element label="Cover" max_length="40" name="cover" type="user_image"/>
+        <element label="Book Cover Number" max_length="40" name="cover" reference="x_11062_bookshelf_book_covers" type="reference"/>
         <element label="Genre" max_length="80" name="genre" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="ISBN" max_length="40" name="isbn" type="string"/>
         <element label="Publish date" max_length="40" name="publish_date" type="glide_date"/>
