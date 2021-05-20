@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Readers" max_length="40" name="x_11062_bookshelf_readers" type="collection">
+        <element label="Last Name" max_length="255" name="last_name" type="string_full_utf8"/>
+        <element label="MyBooks" max_length="40" name="mybooks" type="string"/>
+        <element label="MyRating" max_length="40" name="myrating" type="string"/>
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="Nickname" max_length="255" name="nickname" type="string_full_utf8"/>
+    </element>
+</database>

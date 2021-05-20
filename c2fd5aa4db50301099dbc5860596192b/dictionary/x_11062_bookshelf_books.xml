@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Books" max_length="40" name="x_11062_bookshelf_books" type="collection">
+        <element label="Author" max_length="80" name="author" reference="x_11062_bookshelf_authors" type="reference"/>
+        <element label="Avg Rating" max_length="40" name="avg_rating" type="integer"/>
+        <element label="Book Cover Number" max_length="40" name="cover" reference="x_11062_bookshelf_book_covers" type="reference"/>
+        <element label="Genre" max_length="80" name="genre" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="ISBN" max_length="40" name="isbn" type="string"/>
+        <element label="Publish date" max_length="40" name="publish_date" type="glide_date"/>
+        <element label="Read/Want to read" max_length="40" name="read_want_to_read" type="boolean"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Title" max_length="80" name="title" type="string_full_utf8"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
