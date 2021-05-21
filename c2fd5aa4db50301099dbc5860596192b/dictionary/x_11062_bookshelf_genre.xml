@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Genre" max_length="40" name="x_11062_bookshelf_genre" type="collection">
-        <element display="true" label="Genre" max_length="50" name="genre" type="string_full_utf8"/>
+    <element label="Genre" max_length="40" name="x_11062_bookshelf_genre" sizeclass="13" type="collection">
+        <element choice="1" label="Fiction/Nonfiction" max_length="40" name="fiction_nonfiction" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fiction" value="fiction"/>
+                <element inactive_on_update="false" label="Nonfiction" value="nonfiction"/>
+            </choice>
+        </element>
+        <element display="true" label="Genre" mandatory="true" max_length="50" name="genre" type="string_full_utf8"/>
     </element>
 </database>

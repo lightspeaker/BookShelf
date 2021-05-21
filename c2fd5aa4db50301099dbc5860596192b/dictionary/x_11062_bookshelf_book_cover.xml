@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Book Cover" max_length="40" name="x_11062_bookshelf_book_cover" type="collection">
+    <element label="Book Cover" max_length="40" name="x_11062_bookshelf_book_cover" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Cover Picture" max_length="40" name="cover_picture" type="user_image"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
     </element>
 </database>

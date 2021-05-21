@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Bookshelf M2m Authors Genres" max_length="40" name="x_11062_bookshelf_m2m_authors_genres" type="collection">
+    <element label="Bookshelf M2m Authors Genres" max_length="40" name="x_11062_bookshelf_m2m_authors_genres" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Authors" max_length="32" name="authors" reference="x_11062_bookshelf_authors" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Genre" max_length="32" name="genre" reference="x_11062_bookshelf_genre" type="reference"/>
         <index name="index">

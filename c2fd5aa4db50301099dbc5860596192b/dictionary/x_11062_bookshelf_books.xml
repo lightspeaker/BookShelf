@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Books" max_length="40" name="x_11062_bookshelf_books" type="collection">
+    <element label="Books" max_length="40" name="x_11062_bookshelf_books" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Author" max_length="80" name="author" reference="x_11062_bookshelf_authors" type="reference"/>
         <element label="Avg Rating" max_length="40" name="avg_rating" type="integer"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Cover" max_length="40" name="cover" reference="x_11062_bookshelf_book_cover" type="reference"/>
